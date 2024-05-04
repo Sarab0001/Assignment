@@ -1,0 +1,95 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  padding: 10px 0px;
+  background-color: #979797;
+  /* color: #fff; */
+}
+
+.heading {
+  margin: 0;
+  background-color: #979797;
+}
+
+.all {
+  background-color: #979797;
+  height: 100%;
+  width: 100%;
+  padding: 20px 40px;
+}
+.button-container {
+  display: flex;
+}
+
+.icon-button {
+  background-color: white;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+  color: darkblue;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+.icon-button:hover {
+  opacity: 0.8;
+}
+
+/* //para */
+/* CSS for 3D effect */
+
+.para {
+  background-color: white;
+  padding: 5px;
+  /* /* perspective: 1000px; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* padding-top: 30px;
+  padding-left: 90px;
+  height: 10%;
+  width: 80%;
+  position: center;
+  transition: transform 0.5s;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);  */
+}
+
+/* .para p {
+  position: center;
+  transition: transform 0.5s; /* Add a transition for smooth transformation */
+/* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); */
+/* } */
+
+/* CSS for left and right divs */
+
+.left,
+.right {
+  width: 50%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.card {
+  perspective: 1000px; /* Set perspective to create 3D effect */
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Background color for card body */
+  border-radius: 10px; /* Rounded corners for card */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  padding: 20px;
+  transition: transform 0.5s; /* Add transition for smooth transformation */
+}
+
+.card:hover .card-body {
+  transform: rotateY(10deg) rotateX(10deg); /* Rotate the card body on hover */
+}

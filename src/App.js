@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from "./logo.svg";
+import "./App.css";
+import Form from "./components/Form";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Data from "./components/Data";
+import { BrowserRouter, Route, Routes, Outlet } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div
+        className="App"
+        style={{
+          height: "100vh",
+          width: "100%",
+        }}
+      >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} exact />
+          <Route path="/form" element={<Form />} exact />
+          <Route path="/data" element={<Data />} exact />
+        </Routes>
+        <Outlet /> {/* Render child components of the current route */}
+      </div>
+    </BrowserRouter>
   );
 }
 

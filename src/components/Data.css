@@ -1,0 +1,49 @@
+.body {
+  background-color: darkblue;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring-circle {
+  stroke: #ddd;
+}
+
+.progress-ring-progress {
+  stroke: #007bff;
+  transition: stroke-dashoffset 0.3s;
+}
+
+.progress-text {
+  fill: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: darkblue;
+  display: flexbox;
+  padding: 0%;
+  padding-left: 40%;
+  padding-right: 30%;
+  padding-top: 10px;
+}
+
+.card-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.card {
+  width: 400px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  border: 1px solid #ccc; /* Example border */
+  margin-right: 10px; /* Adjust margin between cards */
+  margin-left: 50px;
+}
+.h7 > .card-title {
+  color: darkblue;
+}

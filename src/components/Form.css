@@ -1,0 +1,97 @@
+/* Form.css */
+
+.form-container {
+  display: flex;
+  background-color: darkblue;
+}
+
+.left-section {
+  background-color: darkblue;
+  display: flex;
+  width: 60%; /* Change the width to your desired percentage */
+  padding: 20px;
+}
+
+.right-section {
+  /* display: flex;
+  /* width: 20%; */
+  height: 100%;
+  padding: 10%;
+  width: 30%; /* Change the width to your desired percentage */
+  padding: 20px;
+}
+
+.left-content {
+  display: grid;
+  align-items: center;
+  /* padding: 10%; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 20px;
+  background-color: white;
+  /* padding-top: 30px; */
+}
+
+.heading {
+  background-color: #fff;
+  color: darkblue;
+  display: flex;
+}
+
+.form-groupLeft {
+  display: flex;
+  gap: 10px;
+
+  /* padding-top: 30px; */
+  height: 100px;
+  width: 500px;
+  /* padding-left: 50%; */
+  /* padding: auto; */
+  color: darkblue;
+}
+
+.right-content {
+  display: grid;
+  gap: 5px;
+  padding-left: 40%;
+  /* padding: auto; */
+  padding-right: 0%;
+  padding-top: 20%;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.form-groupUpper {
+  margin-bottom: 0.5rem;
+  width: 60%;
+  display: flex;
+  gap: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-file {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
